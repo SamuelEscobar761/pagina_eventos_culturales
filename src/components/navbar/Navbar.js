@@ -3,10 +3,10 @@ function Navbar(){
     return(
         <nav className="navbar">
             <ul>
-                <li className="nav-component"><a href="#">Inicio</a></li>
-                <li className="nav-component"><a href="#">Calendario</a></li>
-                <li className="nav-component"><a href="#">Empresas</a></li>
-                <li className="nav-component"><a href="#">Contacto</a></li>
+                <li className="nav-component"><a href="#home">Inicio</a></li>
+                <li className="nav-component"><a href="#calendar">Calendario</a></li>
+                <li className="nav-component"><a href="#Enterprises">Empresas</a></li>
+                <li className="nav-component"><a href="#contact">Contacto</a></li>
             </ul>
         </nav>
     );

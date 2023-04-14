@@ -2,7 +2,7 @@ import Navbar from "../../components/navbar/Navbar"
 
 function Home(){
     return(
-        <div className="home-page">
+        <div className="home-page" id="home">
             
         </div>
     );
