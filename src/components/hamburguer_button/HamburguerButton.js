@@ -1,13 +1,30 @@
-import React from "react";
+import { useState } from 'react';
+import './css/style.css';
 
-function HamburgerButton(props) {
+function HamburguerButton() {
+  const [open, setOpen] = useState(false);
+
+  const handleClick = () => {
+    setOpen(!open);
+  };
+
   return (
-    <button className="hamburger-button" onClick={() => setOpen(!open)}>
-      <div className={open ? "hamburger-line open" : "hamburger-line"}></div>
-      <div className={open ? "hamburger-line open" : "hamburger-line"}></div>
-      <div className={open ? "hamburger-line open" : "hamburger-line"}></div>
-    </button>
+    <div>
+      <button className="hamburguer-button" onClick={handleClick}>
+        <span className={open ? 'open' : ''}></span>
+        <span className={open ? 'open' : ''}></span>
+        <span className={open ? 'open' : ''}></span>
+      </button>
+      {open && ( // Renderiza los enlaces si el menú está abierto
+        <div className="menu-links">
+          <a href="#home-page">Inicio</a><br/>
+          <a href="#calendar-page">Calendario</a><br/>
+          <a href="#enterprises-page">Empresas</a><br/>
+          <a href="#contact-page">Contacto</a>
+        </div>
+      )}
+    </div>
+    
   );
 }
-
-export default HamburgerButton;
+export default HamburguerButton;

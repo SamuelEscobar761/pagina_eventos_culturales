@@ -8,8 +8,8 @@ import HamburgerButton from "./components/hamburguer_button/HamburguerButton";
 function App() {
   return (
     <div>
-      <HamburgerButton/>
       <Navbar />
+      <HamburgerButton />
       <Home />
       <Calendar />
       <Enterprises />
