@@ -2,8 +2,10 @@ import React from "react";
 
 function HamburgerButton(props) {
   return (
-    <button className="hamburger-button" onClick={props.onClick}>
-      <i className="fas fa-bars"></i>
+    <button className="hamburger-button" onClick={() => setOpen(!open)}>
+      <div className={open ? "hamburger-line open" : "hamburger-line"}></div>
+      <div className={open ? "hamburger-line open" : "hamburger-line"}></div>
+      <div className={open ? "hamburger-line open" : "hamburger-line"}></div>
     </button>
   );
 }
