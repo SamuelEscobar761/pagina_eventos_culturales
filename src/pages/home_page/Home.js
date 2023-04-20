@@ -3,7 +3,79 @@ import Navbar from "../../components/navbar/Navbar"
 function Home(){
     return(
         <div className="home-page" id="home">
-            
+            <p>¿Buscas plan para el sábado por la noche? ¿O para el viernes? ¿Quizás para ese fin de semana en la ciudad? ¿O quieres celebrar algo especial con tus amigos? Ahora es más fácil que nunca encontrar tus entradas para la fiesta ideal de cada fin de semana, porque las mejores discotecas venden entradas para sus sesiones a través de internet.</p>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
         </div>
     );
 }
